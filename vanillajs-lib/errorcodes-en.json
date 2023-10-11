@@ -1,0 +1,270 @@
+{
+  "file": "errorcodes-en",
+  "language": "en",
+  "codes": [
+    {
+      "code": 0,
+      "text": "OK"
+    },
+    {
+      "code": 1,
+      "text": "Wrong data VariableType"
+    },
+    {
+      "code": 2,
+      "text": "Illegal Text variable load number"
+    },
+    {
+      "code": 3,
+      "text": "Illegal load number"
+    },
+    {
+      "code": 4,
+      "text": "Illegal Task load number"
+    },
+    {
+      "code": 5,
+      "text": "It does not exist"
+    },
+    {
+      "code": 6,
+      "text": "It already exists"
+    },
+    {
+      "code": 7,
+      "text": "The DPac does not exist"
+    },
+    {
+      "code": 8,
+      "text": "The DPac is used by Task(s)"
+    },
+    {
+      "code": 9,
+      "text": "The Task does not exist"
+    },
+    {
+      "text": 10,
+      "code": "The Task already exists"
+    },
+    {
+      "code": 11,
+      "text": "Wrong loading order"
+    },
+    {
+      "code": 12,
+      "text": "The Task is already installed"
+    },
+    {
+      "code": 13,
+      "text": "The Task is running"
+    },
+    {
+      "code": 14,
+      "text": "The Task is already running"
+    },
+    {
+      "code": 15,
+      "text": "The Task is not running"
+    },
+    {
+      "code": 16,
+      "text": "The Task is not installed"
+    },
+    {
+      "code": 17,
+      "text": "The command StepT is not allowed"
+    },
+    {
+      "code": 18,
+      "text": "The Text variable already exists"
+    },
+    {
+      "code": 19,
+      "text": "The variable does not exist"
+    },
+    {
+      "code": 20,
+      "text": "The memory of the controller is full"
+    },
+    {
+      "code": 21,
+      "text": "(The text is empty)"
+    },
+    {
+      "code": 22,
+      "text": "The text string is too long. It has been truncated!"
+    },
+    {
+      "code": 23,
+      "text": "Illegal access level"
+    },
+    {
+      "code": 24,
+      "text": "Illegal access level"
+    },
+    {
+      "code": 25,
+      "text": "Illegal parameter Value"
+    },
+    {
+      "code": 26,
+      "text": "Wrong password"
+    },
+    {
+      "code": 27,
+      "text": "Reserved error code (0x1B)"
+    },
+    {
+      "code": 28,
+      "text": "Access denied"
+    },
+    {
+      "code": 29,
+      "text": "The maximum length is too large"
+    },
+    {
+      "code": 30,
+      "text": "Internal error on hardware device"
+    },
+    {
+      "code": 31,
+      "text": "Reserved error code (0x1F)"
+    },
+    {
+      "code": 32,
+      "text": "The procedure Task is used by other Task(s)"
+    },
+    {
+      "code": 33,
+      "text": "The Text variable memory is full"
+    },
+    {
+      "code": 34,
+      "text": "The Task is not in step mode"
+    },
+    {
+      "code": 35,
+      "text": "(The data is empty)"
+    },
+    {
+      "code": 36,
+      "text": "Reserved error code (0x24)"
+    },
+    {
+      "code": 37,
+      "text": "Illegal Address"
+    },
+    {
+      "code": 38,
+      "text": "Illegal command"
+    },
+    {
+      "code": 39,
+      "text": "Wrong message length"
+    },
+    {
+      "code": 40,
+      "text": "Data too large"
+    },
+    {
+      "code": 41,
+      "text": "Address outscodee range"
+    },
+    {
+      "code": 42,
+      "text": "Wrong file format"
+    },
+    {
+      "code": 43,
+      "text": "Not allowed"
+    },
+    {
+      "code": 44,
+      "text": "Internal error (inconsitent tables)"
+    },
+    {
+      "code": 45,
+      "text": "It is busy for the moment"
+    },
+    {
+      "code": 46,
+      "text": "Too many break points"
+    },
+    {
+      "code": 47,
+      "text": "Dataconversion error"
+    },
+    {
+      "code": 100,
+      "text": "Data invalcode"
+    },
+    {
+      "code": 193,
+      "text": "No Answer"
+    },
+    {
+      "code": 194,
+      "text": "Internal error"
+    },
+    {
+      "code": 195,
+      "text": "The configured communication channel does not exist"
+    },
+    {
+      "code": 196,
+      "text": "Wrong checksum or incorrect answer syntax"
+    },
+    {
+      "code": 197,
+      "text": "The configured serial port does not exist"
+    },
+    {
+      "code": 198,
+      "text": "Can not get access to the configured serial port"
+    },
+    {
+      "code": 199,
+      "text": "The configured serial port is used by something else"
+    },
+    {
+      "code": 200,
+      "text": "CTS not received"
+    },
+    {
+      "code": 201,
+      "text": "No response from the configured IP Address"
+    },
+    {
+      "code": 202,
+      "text": "The device with the configured IP Address does not support EXOline communication"
+    },
+    {
+      "code": 203,
+      "text": "Serious TCP/IP error. Check the network installation and configuration"
+    },
+    {
+      "code": 204,
+      "text": "No configured route for this EXOline Address"
+    },
+    {
+      "code": 205,
+      "text": "The modem is not connected"
+    },
+    {
+      "code": 206,
+      "text": "End-of-Message not received"
+    },
+    {
+      "code": 207,
+      "text": "Received message is too long"
+    },
+    {
+      "code": 208,
+      "text": "Parity or format error"
+    },
+    {
+      "code": 209,
+      "text": "The serial port is jammed"
+    }
+  ]
+}

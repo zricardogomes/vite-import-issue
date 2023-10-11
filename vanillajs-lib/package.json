@@ -1,0 +1,26 @@
+{
+  "name": "exosocket",
+  "private": true,
+  "version": "0.0.1",
+  "description": "EXO socket client implementation",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js",
+    "worker.js"
+  ],
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "exosocket",
+  "private": true,
+  "version": "0.0.1",
+  "description": "EXO socket client implementation",
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "module": "dist/exosocket.js",
+  "exports": {
+    ".": {
+      "import": "./dist/exosocket.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.11"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "lodash": "^4.17.21"
+  }
+}
